@@ -17,4 +17,4 @@ jobs:
         run: |
           docker build -t avogdrod/flask-app .
           echo !!! build complete !!!
-          docker push avogdrod/flask-app:latest
+          docker push avogdrod/flask-app
