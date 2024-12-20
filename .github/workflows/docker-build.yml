@@ -17,4 +17,4 @@ jobs:
         run: |
           docker compose build
           echo !!! build complete !!!
-          docker compose push
+          docker compose push avogadrod/flask-app
